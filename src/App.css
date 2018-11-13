@@ -7,6 +7,22 @@
   height: 40vmin;
 }
 
+.App-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.App-content {
+  flex-grow: 1;
+  outline: none;
+  position: relative;
+  overflow-y: auto;
+  background-image: url("./app_wallpaper.jpg");
+  background-position: center; 
+  background-size: cover;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -20,6 +36,12 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.Navbar .Navbar-brand-text {
+  font-size: xx-large !important;
+  font-family: fantasy !important;
+  margin-left: 4%;
 }
 
 @keyframes App-logo-spin {
