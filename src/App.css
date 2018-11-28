@@ -18,9 +18,9 @@
   outline: none;
   position: relative;
   overflow-y: auto;
-  background-image: url("./app_wallpaper.jpg");
   background-position: center; 
-  background-size: cover;
+  background-size: contain;
+  background-image: url("./app_wallpaper.jpg");
 }
 
 .App-header {
@@ -40,8 +40,36 @@
 
 .Navbar .Navbar-brand-text {
   font-size: xx-large !important;
-  font-family: fantasy !important;
+  font-family: starcraft !important;
   margin-left: 4%;
+}
+
+.app-titulo {
+  font-size: 550% !important;
+  font-family: starcraft !important;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.titulo-Gunstige {
+  color: #cad3fd;
+}
+
+.titulo-Gunstige:hover {
+  text-decoration: none;
+  color: #cad3fd;
+  opacity: .8;
+}
+
+.titulo-Spiele {
+  color: #d83b08;
+}
+
+.titulo-Spiele:hover {
+  text-decoration: none;
+  color: #d83b08;
+  opacity: .8;
 }
 
 @keyframes App-logo-spin {
@@ -51,12 +79,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.card-buscador {
-  margin-right: 3%;
-  margin-left: 3%;
-  margin-top: 1%;
-  background-color: transparent;
-  display: flex;
 }

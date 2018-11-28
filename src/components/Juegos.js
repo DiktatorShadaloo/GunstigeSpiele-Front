@@ -43,8 +43,8 @@ class Juegos extends Component {
     let key = 0;
     return (
       <Row>
-        <Col xs="2" />
-        <Col xs="8">
+        <Col xs="1" />
+        <Col xs="10">
           <Card className="card-juegos">
             <CardTitle>
               <form onSubmit={this.handleSubmit} className="card-buscador">
@@ -79,8 +79,8 @@ class Juegos extends Component {
             ) : null }
           </Card>
         </Col>
-        <Col xs="2" />
-      </Row>
+        <Col xs="1" />
+        </Row>
     );
   }
 }

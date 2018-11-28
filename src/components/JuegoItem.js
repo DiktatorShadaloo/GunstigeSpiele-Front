@@ -5,7 +5,7 @@ import "../css/JuegoItem.css";
 
 export default function JuegoItem(props) {
   return (
-    <Link to={`/juegos/${props.id}/${props.title}`}>
+    <Link to={`/juegos/${props.id}/${props.title}`} className="item-link">
       <ListGroupItem className="card-juego-item">
         <div className="d-flex">
           <img src={props.img} className="juego-img" />

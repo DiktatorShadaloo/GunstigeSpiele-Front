@@ -9,6 +9,19 @@
   margin-left: 5%;
 }
 
+.juego-title:hover {  
+  opacity: .7;
+}
+
 .juego-img {
   border-radius: 3%;
+}
+
+.item-link {
+  color: black;
+}
+
+.item-link:hover {
+  color:  black;
+  text-decoration: none;
 }

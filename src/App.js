@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import { BrowserRouter, Route, Link } from "react-router-dom";
-import { Navbar, NavbarBrand } from "reactstrap";
+import { BrowserRouter, Route } from "react-router-dom";
+import { Row, Col } from "reactstrap";
 import "./App.css";
 import Juegos from "./components/Juegos";
 import Juego from "./components/Juego";
@@ -10,14 +10,21 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className="App-container">
-          <div className="Navbar">
-            <Navbar color="dark" dark>
-              <NavbarBrand href="/" className="Navbar-brand-text">
-                GunstigeSpiele
-              </NavbarBrand>
-            </Navbar>
-          </div>
           <div className="App-content">
+            <Row>
+              <Col xs="2" />
+              <Col xs="8" className="app-titulo">
+                <div className="d-flex">
+                  <a href="/" className="titulo-Gunstige">
+                    GUNSTIGE
+                  </a>
+                  <a href="/" className="titulo-Spiele">
+                    SPIELE
+                  </a>
+                </div>
+              </Col>
+              <Col xs="2" />
+            </Row>
             <Route exact path="/" component={Juegos} />
             <Route path="/juegos/:juegoId/:juegoTitle" component={Juego} />
           </div>

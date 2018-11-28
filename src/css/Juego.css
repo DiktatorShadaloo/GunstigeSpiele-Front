@@ -1,10 +1,13 @@
 .card-juego {
   margin-top: 3%;
   background-color: rgb(214, 202, 202);
+  align-content: center;
 }
 
 .juego-titulo {
-  margin-top: 1%;
+  padding-top: 1%;
+  padding-left: 2%;
+  font-size: 300%;
   text-align: center;
   font-family: monospace;
 }
@@ -14,5 +17,19 @@
 }
 
 .juego-mensaje {
-  text-align: center;
+  padding-left: 25%;
+  color: red;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  align-items: flex-end;
+}
+
+.juego-icono-cruz {
+  height: 40px;
+  width: 40px;
+  margin-right: 3%;
+}
+
+.juego-img {
+  height: 5rem;
 }
