@@ -1,0 +1,14 @@
+.card-juego-item {
+  margin-top: 0.5%;
+  margin-right: 3%;
+  margin-left: 3%;
+}
+
+.juego-title {
+  padding-top: 1.5%;
+  margin-left: 5%;
+}
+
+.juego-img {
+  border-radius: 3%;
+}
